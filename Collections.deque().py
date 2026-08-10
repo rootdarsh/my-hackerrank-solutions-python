@@ -1,6 +1,5 @@
 from collections import deque
 
-
 d = deque()
 N = int(input())
 operations = []
