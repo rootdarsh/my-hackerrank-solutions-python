@@ -1,6 +1,8 @@
 set_A = set(map(int, input().split()))
 n = int(input())
+
 count = 0
+
 for _ in range(n):
     other_set = set(map(int, input().split()))
     if set_A.issuperset(other_set):
