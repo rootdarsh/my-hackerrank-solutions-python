@@ -1,7 +1,7 @@
 list = []
 unique_list = []
+
 def merge_the_tools(string, k):
-    # your code goes here
     n = len(string)
     
     for i in range(0,n):
